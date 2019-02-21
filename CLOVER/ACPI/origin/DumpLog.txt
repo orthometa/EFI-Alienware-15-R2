@@ -1,0 +1,176 @@
+10:733  4:671  Found BIOS RSDP at FD030
+10:736  0:002  Printing ACPI tables from RSDP FD030 ...
+10:739  0:002   FD030: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+10:751  0:012    (Xsdt: 371AA0A8, Rsdt: 371AA028)
+10:757  0:005    371AA0A8: 'XSDT', 'ALIENWRE', Rev: 1, Len: 204
+10:766  0:009    371AA028: 'RSDT', 'ALIENWRE', Rev: 1, Len: 120
+10:775  0:009    Tables in Xsdt: 21
+10:778  0:002    0. 371CDF70: 'FACP', 'ALIENWRE', Rev: 5, Len: 268
+10:787  0:008        (Dsdt: 371AA200, Facs: 37B5AF80, XDsdt: 371AA200, XFacs: 0)
+10:796  0:009        371AA200: 'DSDT', 'ALIENWRE', Rev: 2, Len: 146795
+10:808  0:011        37B5AF80: 'FACS', Ver: 2, Len: 64
+10:819  0:011    1. 371CE080: 'APIC', 'ALIENWRE', Rev: 3, Len: 188
+10:832  0:012    2. 371CE140: 'FPDT', 'ALIENWRE', Rev: 1, Len: 68
+10:841  0:009    3. 371CE188: 'FIDT', 'ALIENWRE', Rev: 1, Len: 156
+10:850  0:008    4. 371CE228: 'MCFG', 'ALIENWRE', Rev: 1, Len: 60
+10:859  0:009    5. 371CE268: 'HPET', 'ALIENWRE', Rev: 1, Len: 56
+10:868  0:009    6. 371CE2A0: 'SSDT', 'SataTabl', Rev: 1, Len: 1209
+10:877  0:009    7. 371CE760: 'LPIT', 'SKL', Rev: 1, Len: 148
+10:886  0:009    8. 371CE7F8: 'SSDT', 'sensrhub', Rev: 2, Len: 584
+10:905  0:018    9. 371CEA40: 'SSDT', 'PtidDevc', Rev: 2, Len: 11182
+10:917  0:011    10. 371D15F0: 'DBGP', '', Rev: 1, Len: 52
+10:927  0:009    11. 371D1628: 'DBG2', '', Rev: 0, Len: 84
+10:936  0:009    12. 371D1680: 'SSDT', 'xh_rvp10', Rev: 2, Len: 1693
+10:945  0:008    13. 371D1D20: 'SSDT', 'DptfTabl', Rev: 2, Len: 11703
+10:953  0:008    14. 371D4AD8: 'SSDT', 'SaSsdt', Rev: 2, Len: 21915
+10:963  0:009    15. 371DA078: 'UEFI', '', Rev: 1, Len: 66
+10:972  0:009    16. 371DA0C0: 'MSDM', 'ALIENWRE', Rev: 3, Len: 85
+10:982  0:009    17. 371DA118: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3672
+10:993  0:011    18. 371DAF70: 'SSDT', 'SgPeg', Rev: 2, Len: 206
+11:003  0:009    19. 371DB040: 'TPM2', 'Tpm2Tabl', Rev: 3, Len: 52
+11:012  0:009    20. 371DB078: 'SSDT', 'OptTabl', Rev: 1, Len: 6540
+11:021  0:009    Tables in Rsdt: 21
+11:024  0:003    0. 371AA178: 'FACP', 'ALIENWRE', Rev: 2, Len: 132
+11:033  0:008        (Dsdt: 371AA200, Facs: 37B5AF40)
+11:039  0:005        371AA200: 'DSDT', 'ALIENWRE', Rev: 2, Len: 146795
+11:051  0:011        37B5AF40: 'FACS', Ver: 0, Len: 64
+11:060  0:008    1. 371CE080: 'APIC', 'ALIENWRE', Rev: 3, Len: 188
+11:069  0:009    2. 371CE140: 'FPDT', 'ALIENWRE', Rev: 1, Len: 68
+11:078  0:009    3. 371CE188: 'FIDT', 'ALIENWRE', Rev: 1, Len: 156
+11:087  0:008    4. 371CE228: 'MCFG', 'ALIENWRE', Rev: 1, Len: 60
+11:096  0:009    5. 371CE268: 'HPET', 'ALIENWRE', Rev: 1, Len: 56
+11:105  0:009    6. 371CE2A0: 'SSDT', 'SataTabl', Rev: 1, Len: 1209
+11:114  0:009    7. 371CE760: 'LPIT', 'SKL', Rev: 1, Len: 148
+11:123  0:009    8. 371CE7F8: 'SSDT', 'sensrhub', Rev: 2, Len: 584
+11:135  0:011    9. 371CEA40: 'SSDT', 'PtidDevc', Rev: 2, Len: 11182
+11:145  0:009    10. 371D15F0: 'DBGP', '', Rev: 1, Len: 52
+11:154  0:009    11. 371D1628: 'DBG2', '', Rev: 0, Len: 84
+11:163  0:009    12. 371D1680: 'SSDT', 'xh_rvp10', Rev: 2, Len: 1693
+11:172  0:009    13. 371D1D20: 'SSDT', 'DptfTabl', Rev: 2, Len: 11703
+11:181  0:009    14. 371D4AD8: 'SSDT', 'SaSsdt', Rev: 2, Len: 21915
+11:190  0:008    15. 371DA078: 'UEFI', '', Rev: 1, Len: 66
+11:202  0:011    16. 371DA0C0: 'MSDM', 'ALIENWRE', Rev: 3, Len: 85
+11:211  0:009    17. 371DA118: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3672
+11:220  0:009    18. 371DAF70: 'SSDT', 'SgPeg', Rev: 2, Len: 206
+11:230  0:009    19. 371DB040: 'TPM2', 'Tpm2Tabl', Rev: 3, Len: 52
+11:239  0:009    20. 371DB078: 'SSDT', 'OptTabl', Rev: 1, Len: 6540
+11:248  0:009  Found UEFI Acpi 2.0 RSDP at 371AA000
+11:251  0:003  Saving ACPI tables from RSDP 371AA000 to EFI\CLOVER\ACPI\origin ...
+11:254  0:002   371AA000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+11:308  0:053    (Xsdt: 371AA0A8, Rsdt: 371AA028)
+11:311  0:003    371AA0A8: 'XSDT', 'ALIENWRE', Rev: 1, Len: 204 -> XSDT.aml
+11:342  0:031    371AA028: 'RSDT', 'ALIENWRE', Rev: 1, Len: 120 -> RSDT.aml
+11:373  0:030    Tables in Xsdt: 21
+11:377  0:003    0. 371CDF70: 'FACP', 'ALIENWRE', Rev: 5, Len: 268 -> FACP.aml
+11:406  0:029        (Dsdt: 371AA200, Facs: 37B5AF80, XDsdt: 371AA200, XFacs: 0)
+11:415  0:009        371AA200: 'DSDT', 'ALIENWRE', Rev: 2, Len: 146795 -> DSDT.aml
+11:496  0:080        37B5AF80: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+11:526  0:030    1. 371CE080: 'APIC', 'ALIENWRE', Rev: 3, Len: 188 -> APIC.aml
+11:559  0:033    2. 371CE140: 'FPDT', 'ALIENWRE', Rev: 1, Len: 68 -> FPDT.aml
+11:591  0:031    3. 371CE188: 'FIDT', 'ALIENWRE', Rev: 1, Len: 156 -> FIDT.aml
+11:622  0:031    4. 371CE228: 'MCFG', 'ALIENWRE', Rev: 1, Len: 60 -> MCFG.aml
+11:657  0:034    5. 371CE268: 'HPET', 'ALIENWRE', Rev: 1, Len: 56 -> HPET.aml
+11:691  0:033    6. 371CE2A0: 'SSDT', 'SataTabl', Rev: 1, Len: 1209 -> SSDT-0-SataTabl.aml
+11:729  0:038    7. 371CE760: 'LPIT', 'SKL', Rev: 1, Len: 148 -> LPIT.aml
+11:762  0:033    8. 371CE7F8: 'SSDT', 'sensrhub', Rev: 2, Len: 584 -> SSDT-1-sensrhub.aml
+11:797  0:034    9. 371CEA40: 'SSDT', 'PtidDevc', Rev: 2, Len: 11182 -> SSDT-2-PtidDevc.aml
+11:826  0:028    10. 371D15F0: 'DBGP', '', Rev: 1, Len: 52 -> DBGP.aml
+11:854  0:027    11. 371D1628: 'DBG2', '', Rev: 0, Len: 84 -> DBG2.aml
+11:883  0:029    12. 371D1680: 'SSDT', 'xh_rvp10', Rev: 2, Len: 1693 -> SSDT-3-xh_rvp10.aml
+11:914  0:031    13. 371D1D20: 'SSDT', 'DptfTabl', Rev: 2, Len: 11703 -> SSDT-4-DptfTabl.aml
+11:942  0:027    14. 371D4AD8: 'SSDT', 'SaSsdt', Rev: 2, Len: 21915 -> SSDT-5-SaSsdt.aml
+11:974  0:031    15. 371DA078: 'UEFI', '', Rev: 1, Len: 66 -> UEFI.aml
+12:001  0:026    16. 371DA0C0: 'MSDM', 'ALIENWRE', Rev: 3, Len: 85 -> MSDM.aml
+12:030  0:028    17. 371DA118: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3672 -> SSDT-6-CpuSsdt.aml (Found hidden SSDT 7 pcs)
+12:060  0:030        * 364E0698: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1500  53 53 44 54 DC 05 00 00 02 EF 50 6D 52 65 66 00 Internal length = 1500 -> SSDT-x6_0-Cpu0Ist.aml
+12:136  0:076        * 364DF618: 'SSDT', 'ApIst', Rev: 2, Len: 1450  53 53 44 54 AA 05 00 00 02 CE 50 6D 52 65 66 00 Internal length = 1450 -> SSDT-x6_1-ApIst.aml
+12:213  0:076        * 364DFC18: 'SSDT', 'Cpu0Cst', Rev: 2, Len: 895  53 53 44 54 7F 03 00 00 02 65 50 6D 52 65 66 00 Internal length = 895 -> SSDT-x6_2-Cpu0Cst.aml
+12:290  0:076        * 370E2C18: 'SSDT', 'ApCst', Rev: 2, Len: 281  53 53 44 54 19 01 00 00 02 EA 50 6D 52 65 66 00 Internal length = 281 -> SSDT-x6_3-ApCst.aml
+12:373  0:083        * 34C3AB18: 'SSDT', 'Cpu0Hwp', Rev: 2, Len: 142  53 53 44 54 8E 00 00 00 02 2B 50 6D 52 65 66 00 Internal length = 142 -> SSDT-x6_4-Cpu0Hwp.aml
+12:449  0:076        * 34C40798: 'SSDT', 'ApHwp', Rev: 2, Len: 281  53 53 44 54 19 01 00 00 02 FD 50 6D 52 65 66 00 Internal length = 281 -> SSDT-x6_5-ApHwp.aml
+12:526  0:076        * 34C40618: 'SSDT', 'HwpLvt', Rev: 2, Len: 304  53 53 44 54 30 01 00 00 02 85 50 6D 52 65 66 00 Internal length = 304 -> SSDT-x6_6-HwpLvt.aml
+12:605  0:078  
+12:608  0:003    18. 371DAF70: 'SSDT', 'SgPeg', Rev: 2, Len: 206 -> SSDT-7-SgPeg.aml
+12:635  0:027    19. 371DB040: 'TPM2', 'Tpm2Tabl', Rev: 3, Len: 52 -> TPM2.aml
+12:663  0:027    20. 371DB078: 'SSDT', 'OptTabl', Rev: 1, Len: 6540 -> SSDT-8-OptTabl.aml
+12:693  0:030    Tables in Rsdt: 21
+12:696  0:003    0. 371AA178: 'FACP', 'ALIENWRE', Rev: 2, Len: 132 -> RSDT-FACP.aml
+12:728  0:031        (Dsdt: 371AA200, Facs: 37B5AF40)
+12:734  0:005        371AA200: 'DSDT', 'ALIENWRE', Rev: 2, Len: 146795
+12:745  0:011        37B5AF40: 'FACS', Ver: 0, Len: 64 -> RSDT-FACS.aml
+12:769  0:024    1. 371CE080: 'APIC', 'ALIENWRE', Rev: 3, Len: 188
+12:779  0:009    2. 371CE140: 'FPDT', 'ALIENWRE', Rev: 1, Len: 68
+12:788  0:009    3. 371CE188: 'FIDT', 'ALIENWRE', Rev: 1, Len: 156
+12:797  0:009    4. 371CE228: 'MCFG', 'ALIENWRE', Rev: 1, Len: 60
+12:806  0:009    5. 371CE268: 'HPET', 'ALIENWRE', Rev: 1, Len: 56
+12:819  0:013    6. 371CE2A0: 'SSDT', 'SataTabl', Rev: 1, Len: 1209
+12:829  0:009    7. 371CE760: 'LPIT', 'SKL', Rev: 1, Len: 148
+12:838  0:009    8. 371CE7F8: 'SSDT', 'sensrhub', Rev: 2, Len: 584
+12:847  0:009    9. 371CEA40: 'SSDT', 'PtidDevc', Rev: 2, Len: 11182
+12:856  0:009    10. 371D15F0: 'DBGP', '', Rev: 1, Len: 52
+12:865  0:009    11. 371D1628: 'DBG2', '', Rev: 0, Len: 84
+12:875  0:009    12. 371D1680: 'SSDT', 'xh_rvp10', Rev: 2, Len: 1693
+12:884  0:009    13. 371D1D20: 'SSDT', 'DptfTabl', Rev: 2, Len: 11703
+12:896  0:012    14. 371D4AD8: 'SSDT', 'SaSsdt', Rev: 2, Len: 21915
+12:905  0:009    15. 371DA078: 'UEFI', '', Rev: 1, Len: 66
+12:914  0:009    16. 371DA0C0: 'MSDM', 'ALIENWRE', Rev: 3, Len: 85
+12:923  0:009    17. 371DA118: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3672
+12:933  0:009    18. 371DAF70: 'SSDT', 'SgPeg', Rev: 2, Len: 206
+12:942  0:009    19. 371DB040: 'TPM2', 'Tpm2Tabl', Rev: 3, Len: 52
+12:951  0:009    20. 371DB078: 'SSDT', 'OptTabl', Rev: 1, Len: 6540
+12:964  0:012  Found UEFI Acpi 1.0 RSDP at 371AA000
+12:967  0:003  Printing ACPI tables from RSDP 371AA000 ...
+12:970  0:002   371AA000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+12:982  0:012    (Xsdt: 371AA0A8, Rsdt: 371AA028)
+12:985  0:003    371AA0A8: 'XSDT', 'ALIENWRE', Rev: 1, Len: 204
+12:994  0:009    371AA028: 'RSDT', 'ALIENWRE', Rev: 1, Len: 120
+13:003  0:009    Tables in Xsdt: 21
+13:006  0:002    0. 371CDF70: 'FACP', 'ALIENWRE', Rev: 5, Len: 268
+13:016  0:009        (Dsdt: 371AA200, Facs: 37B5AF80, XDsdt: 371AA200, XFacs: 0)
+13:028  0:012        371AA200: 'DSDT', 'ALIENWRE', Rev: 2, Len: 146795
+13:040  0:011        37B5AF80: 'FACS', Ver: 2, Len: 64
+13:046  0:006    1. 371CE080: 'APIC', 'ALIENWRE', Rev: 3, Len: 188
+13:055  0:009    2. 371CE140: 'FPDT', 'ALIENWRE', Rev: 1, Len: 68
+13:064  0:009    3. 371CE188: 'FIDT', 'ALIENWRE', Rev: 1, Len: 156
+13:073  0:009    4. 371CE228: 'MCFG', 'ALIENWRE', Rev: 1, Len: 60
+13:083  0:009    5. 371CE268: 'HPET', 'ALIENWRE', Rev: 1, Len: 56
+13:095  0:011    6. 371CE2A0: 'SSDT', 'SataTabl', Rev: 1, Len: 1209
+13:104  0:008    7. 371CE760: 'LPIT', 'SKL', Rev: 1, Len: 148
+13:113  0:009    8. 371CE7F8: 'SSDT', 'sensrhub', Rev: 2, Len: 584
+13:122  0:008    9. 371CEA40: 'SSDT', 'PtidDevc', Rev: 2, Len: 11182
+13:131  0:009    10. 371D15F0: 'DBGP', '', Rev: 1, Len: 52
+13:140  0:008    11. 371D1628: 'DBG2', '', Rev: 0, Len: 84
+13:149  0:009    12. 371D1680: 'SSDT', 'xh_rvp10', Rev: 2, Len: 1693
+13:158  0:009    13. 371D1D20: 'SSDT', 'DptfTabl', Rev: 2, Len: 11703
+13:170  0:011    14. 371D4AD8: 'SSDT', 'SaSsdt', Rev: 2, Len: 21915
+13:179  0:009    15. 371DA078: 'UEFI', '', Rev: 1, Len: 66
+13:188  0:008    16. 371DA0C0: 'MSDM', 'ALIENWRE', Rev: 3, Len: 85
+13:197  0:008    17. 371DA118: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3672
+13:206  0:009    18. 371DAF70: 'SSDT', 'SgPeg', Rev: 2, Len: 206
+13:216  0:009    19. 371DB040: 'TPM2', 'Tpm2Tabl', Rev: 3, Len: 52
+13:225  0:009    20. 371DB078: 'SSDT', 'OptTabl', Rev: 1, Len: 6540
+13:234  0:009    Tables in Rsdt: 21
+13:241  0:006    0. 371AA178: 'FACP', 'ALIENWRE', Rev: 2, Len: 132
+13:250  0:009        (Dsdt: 371AA200, Facs: 37B5AF40)
+13:256  0:006        371AA200: 'DSDT', 'ALIENWRE', Rev: 2, Len: 146795
+13:267  0:011        37B5AF40: 'FACS', Ver: 0, Len: 64
+13:273  0:005    1. 371CE080: 'APIC', 'ALIENWRE', Rev: 3, Len: 188
+13:283  0:009    2. 371CE140: 'FPDT', 'ALIENWRE', Rev: 1, Len: 68
+13:292  0:009    3. 371CE188: 'FIDT', 'ALIENWRE', Rev: 1, Len: 156
+13:301  0:009    4. 371CE228: 'MCFG', 'ALIENWRE', Rev: 1, Len: 60
+13:313  0:012    5. 371CE268: 'HPET', 'ALIENWRE', Rev: 1, Len: 56
+13:322  0:009    6. 371CE2A0: 'SSDT', 'SataTabl', Rev: 1, Len: 1209
+13:332  0:009    7. 371CE760: 'LPIT', 'SKL', Rev: 1, Len: 148
+13:341  0:009    8. 371CE7F8: 'SSDT', 'sensrhub', Rev: 2, Len: 584
+13:350  0:009    9. 371CEA40: 'SSDT', 'PtidDevc', Rev: 2, Len: 11182
+13:359  0:009    10. 371D15F0: 'DBGP', '', Rev: 1, Len: 52
+13:368  0:009    11. 371D1628: 'DBG2', '', Rev: 0, Len: 84
+13:377  0:009    12. 371D1680: 'SSDT', 'xh_rvp10', Rev: 2, Len: 1693
+13:390  0:012    13. 371D1D20: 'SSDT', 'DptfTabl', Rev: 2, Len: 11703
+13:399  0:009    14. 371D4AD8: 'SSDT', 'SaSsdt', Rev: 2, Len: 21915
+13:408  0:009    15. 371DA078: 'UEFI', '', Rev: 1, Len: 66
+13:417  0:009    16. 371DA0C0: 'MSDM', 'ALIENWRE', Rev: 3, Len: 85
+13:427  0:009    17. 371DA118: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3672
+13:436  0:009    18. 371DAF70: 'SSDT', 'SgPeg', Rev: 2, Len: 206
+13:445  0:009    19. 371DB040: 'TPM2', 'Tpm2Tabl', Rev: 3, Len: 52
+13:457  0:011    20. 371DB078: 'SSDT', 'OptTabl', Rev: 1, Len: 6540
